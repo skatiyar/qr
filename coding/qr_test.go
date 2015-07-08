@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"testing"
 
-	"code.google.com/p/rsc/gf256"
-	"code.google.com/p/rsc/qr/libqrencode"
+	"github.com/SKatiyar/qr/gf256"
+	"github.com/SKatiyar/qr/libqrencode"
 )
 
 func test(t *testing.T, v Version, l Level, text ...Encoding) bool {
